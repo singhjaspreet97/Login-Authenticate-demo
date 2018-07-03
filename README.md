@@ -106,7 +106,9 @@ Public => css : styling of the pages is done using different css styles and boot
        => js
             => DataView.js: jQuery is used and userData array is created. Ajax operations are used, if thier is success data will be parsed in the table in index.handlebars.
            
-Views => Layouts diretory
+Views 
+      
+      => Layouts diretory
                => layout.handlebars : Navigation bar is created. User is logged in then only dashboard and logout button will appear.
                                       If user is logged out then, login and register button will appear.In between the main content will appear,if success , then success message will appear, if error then error message in the form of flash message. A footer has been at set at the botom of page
                                      
@@ -117,7 +119,7 @@ Views => Layouts diretory
                             A jQuery script is passed and the table accesses these values form DataView.js.
                             
   
-  This Project is created for demo purposes only for assignment, for my round of internship with Venturesky in Web Development.
+  This Project is created for demo purposes only.
                                
             
            
